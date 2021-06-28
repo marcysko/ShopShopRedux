@@ -12,10 +12,13 @@ import {
 } from "../utils/actions";
 import { QUERY_PRODUCTS } from '../utils/queries';
 import { idbPromise } from "../utils/helpers";
+import { useSelector, useDispatch } from "react-redux";
 import spinner from '../assets/spinner.gif';
 
 function Detail() {
-const [state, dispatch] = useStoreContext();
+const state = useSelector((state) => state);
+const dispatch = useDispatch();
+
 const { id } = useParams();
 
 const [currentProduct, setCurrentProduct] = useState({})
@@ -118,7 +121,7 @@ const removeFromCart = () => {
         </div>
       ) : null}
       {loading ? <img src={spinner} alt="loading" /> : null}
-      }
+      
       <Cart />
     </>
   );
