@@ -1,7 +1,7 @@
 # ShopShopRedux
 
 ## Description
-Refactored the e-commerce platform, shop-shop, to use Redux to manage global state instead of the Context API.
+Refactored the e-commerce platform, shop-shop, to use Redux to manage global state instead of the Context API. Added offline capabilities with IndexedDB as well as the ability to handle secure online payments with a service called Stripe.
 
 ## Weblink
 https://immense-chamber-07848.herokuapp.com/
