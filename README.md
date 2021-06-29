@@ -7,3 +7,4 @@ Refactored the e-commerce platform, shop-shop, to use Redux to manage global sta
 https://immense-chamber-07848.herokuapp.com/
 
 [![Screen-Shot-2021-06-28-at-3-25-52-PM.png](https://i.postimg.cc/4NjbSH7C/Screen-Shot-2021-06-28-at-3-25-52-PM.png)](https://postimg.cc/ykXZJdyn)
+[![Screen-Shot-2021-06-28-at-8-48-33-PM.png](https://i.postimg.cc/SsJt92Jg/Screen-Shot-2021-06-28-at-8-48-33-PM.png)](https://postimg.cc/8JgHQCdv)
