@@ -19,6 +19,5 @@
   },
   "dependencies": {
     "if-env": "^1.0.4"
-    
   }
 }

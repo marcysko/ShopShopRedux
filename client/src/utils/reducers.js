@@ -10,13 +10,23 @@ import {
   TOGGLE_CART
 } from "./actions";
 
+const defaultState = {
+  products: [],
+  cart: [],
+  cartOpen: false,
+  categories: [],
+  currentCategory: '',
+}
+
 const reducer = (state = defaultState, action) => {
   switch (action.type) {
+    // if action type value is the value of `UPDATE_PRODUCTS`, return a new state object with an updated products array
     case UPDATE_PRODUCTS:
       return {
         ...state,
         products: [...action.products],
       };
+
 
     case ADD_TO_CART:
       return {
